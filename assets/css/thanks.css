@@ -1,0 +1,16 @@
+
+
+.success{
+    margin: 0 0 10px 0;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px; 
+
+}
+
+.success h1{
+    text-align:center ;
+    background-color: rgb(59, 68, 73, .5);
+    color: rgb(75, 252, 6);
+    text-shadow: 2px 2px 3px #012929;
+}   
