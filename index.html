@@ -56,7 +56,7 @@ nav.scrolled{background:rgba(10,14,20,0.97)}
 /* ====== HERO ====== */
 .hero{position:relative;z-index:2;min-height:100vh;display:flex;align-items:flex-end;overflow:hidden}
 .hero-parallax{position:absolute;inset:-20% 0 -20% 0;z-index:0;will-change:transform;
-  background:url('assets/img/armk4.jpg') center 30%/cover no-repeat}
+  background:url('assets/img/armk8.jpg') center 30%/cover no-repeat}
 .hero-overlay{position:absolute;inset:0;z-index:1;background:linear-gradient(120deg,rgba(10,14,20,0.93) 0%,rgba(10,14,20,0.5) 60%,rgba(10,14,20,0.78) 100%)}
 .hero-overlay2{position:absolute;inset:0;z-index:1;background:linear-gradient(to top,rgba(10,14,20,1) 0%,transparent 48%)}
 .hero-bg-text{position:absolute;right:-1%;top:50%;transform:translateY(-50%);font-family:var(--serif);font-size:clamp(90px,16vw,240px);font-weight:700;color:rgba(201,168,76,0.028);white-space:nowrap;user-select:none;pointer-events:none;line-height:1;z-index:2}
@@ -491,7 +491,7 @@ footer{position:relative;z-index:2;background:var(--bg);border-top:1px solid var
   <p class="bundle-sub reveal">A glimpse into my world — click the stack to explore</p>
   <div class="bundle-stack reveal" onclick="openLightbox(0)">
     <img class="bcard" src="assets/img/armk2_8.jpg" alt="Photo 1">
-    <img class="bcard" src="assets/img/armk3.jpg" alt="Photo 2">
+    <img class="bcard" src="assets/img/armk10.jpg" alt="Photo 2">
     <img class="bcard" src="assets/img/armk4.jpg" alt="Photo 3">
     <img class="bcard" src="assets/img/armk5.jpg" alt="Photo 4">
   </div>
@@ -547,14 +547,14 @@ footer{position:relative;z-index:2;background:var(--bg);border-top:1px solid var
   <div class="sec-eye reveal">Gallery</div>
   <h2 class="sec-title reveal">Moments &amp;<br><em>Memories</em></h2>
   <div class="gallery-grid">
-    <div class="g-item reveal" style="transition-delay:0s" onclick="openLightbox(0)"><img src="assets/img/armk4.jpg" alt="Portrait"><div class="g-overlay"><div class="g-overlay-txt">Professional Portrait</div></div></div>
-    <div class="g-item tall reveal" style="transition-delay:0.06s" onclick="openLightbox(1)"><img src="assets/img/armk1.jpg" alt="At Work"><div class="g-overlay"><div class="g-overlay-txt">At Work</div></div></div>
-    <div class="g-item reveal" style="transition-delay:0.12s" onclick="openLightbox(2)"><img src="assets/img/armk3.jpg" alt="Casual"><div class="g-overlay"><div class="g-overlay-txt">Casual Moments</div></div></div>
-    <div class="g-item reveal" style="transition-delay:0.18s" onclick="openLightbox(3)"><img src="assets/img/armk1.jpg" alt="Business"><div class="g-overlay"><div class="g-overlay-txt">Business Session</div></div></div>
+    <div class="g-item reveal" style="transition-delay:0s" onclick="openLightbox(0)"><img src="assets/img/armk01.jpg" alt="Portrait"><div class="g-overlay"><div class="g-overlay-txt">Professional Portrait</div></div></div>
+    <div class="g-item tall reveal" style="transition-delay:0.06s" onclick="openLightbox(1)"><img src="assets/img/armk6.jpg" alt="At Work"><div class="g-overlay"><div class="g-overlay-txt">At Work</div></div></div>
+    <div class="g-item reveal" style="transition-delay:0.12s" onclick="openLightbox(2)"><img src="assets/img/armk9.jpg" alt="Casual"><div class="g-overlay"><div class="g-overlay-txt">Casual Moments</div></div></div>
+    <div class="g-item reveal" style="transition-delay:0.18s" onclick="openLightbox(3)"><img src="assets/img/armk7.jpg" alt="Business"><div class="g-overlay"><div class="g-overlay-txt">Business Session</div></div></div>
     <div class="g-item wide reveal" style="transition-delay:0.24s" onclick="openLightbox(4)"><img src="assets/img/armk2_8.jpg" alt="Tech"><div class="g-overlay"><div class="g-overlay-txt">Tech &amp; Innovation</div></div></div>
     <div class="g-item reveal" style="transition-delay:0.30s" onclick="openLightbox(5)"><img src="assets/img/armk4.jpg" alt="Kerala"><div class="g-overlay"><div class="g-overlay-txt">Kerala Pride</div></div></div>
     <div class="g-item reveal" style="transition-delay:0.36s" onclick="openLightbox(6)"><img src="assets/img/armk5.jpg" alt="Outdoor"><div class="g-overlay"><div class="g-overlay-txt">Outdoor Moments</div></div></div>
-    <div class="g-item reveal" style="transition-delay:0.42s" onclick="openLightbox(7)"><img src="assets/img/armk4.jpg" alt="Team"><div class="g-overlay"><div class="g-overlay-txt">Team &amp; Leadership</div></div></div>
+    <div class="g-item reveal" style="transition-delay:0.42s" onclick="openLightbox(7)"><img src="assets/img/armk10.jpg" alt="Team"><div class="g-overlay"><div class="g-overlay-txt">Team &amp; Leadership</div></div></div>
   </div>
   <p class="gallery-note">
     <!-- Replace placeholder images with your personal photos — update the <code>src</code> attribute on each <code>&lt;img&gt;</code> tag  --></p> 
@@ -904,14 +904,14 @@ END:VCARD`;
    LIGHTBOX
    ===================================================== */
 const photos=[
-  {src:'assets/img/armk4.jpg',cap:'Professional Portrait'},
-  {src:'assets/img/armk1.jpg',cap:'At Work'},
-  {src:'assets/img/armk4.jpg',cap:'Casual Moments'},
-  {src:'assets/img/armk1.jpg',cap:'Business Session'},
+  {src:'assets/img/armk01.jpg',cap:'Professional Portrait'},
+  {src:'assets/img/armk6.jpg',cap:'At Work'},
+  {src:'assets/img/armk9.jpg',cap:'Casual Moments'},
+  {src:'assets/img/armk7.jpg',cap:'Business Session'},
   {src:'assets/img/armk2_8.jpg',cap:'Tech & Innovation'},
   {src:'assets/img/armk4.jpg',cap:'Kerala Pride'},
   {src:'assets/img/armk5.jpg',cap:'Outdoor Moments'},
-  {src:'assets/img/armk4.jpg',cap:'Team & Leadership'}
+  {src:'assets/img/armk10.jpg',cap:'Team & Leadership'}
 ];
 let lbIdx=0;
 function buildLightbox(){
