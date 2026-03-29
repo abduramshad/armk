@@ -7,14 +7,14 @@
 
 <!-- ===== FAVICON (works on all devices) ===== -->
 <!-- Replace YOUR_PHOTO_URL below with a direct link to your photo (JPG/PNG) -->
-<link rel="icon" type="image/jpeg" href="https://drive.google.com/file/d/16NWw1YsW2y6sIy68QZA1KzjNWQQ0pYsM/view">
-<link rel="apple-touch-icon" href="https://drive.google.com/file/d/16NWw1YsW2y6sIy68QZA1KzjNWQQ0pYsM/view">
+<link rel="icon" type="image/jpeg" href="assets/img/armk01.jpg">
+<link rel="apple-touch-icon" href="assets/img/armk01.jpg">
 <meta name="theme-color" content="#C9A84C">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Abdu Ramshad MK — Branch Manager & Web Developer">
 <meta property="og:description" content="6+ years bridging IT and business · Available for freelance web development">
-<meta property="og:image" content="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80">
+<meta property="og:image" content="assets/img/armk01.jpg">
 
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -56,7 +56,7 @@ nav.scrolled{background:rgba(10,14,20,0.97)}
 /* ====== HERO ====== */
 .hero{position:relative;z-index:2;min-height:100vh;display:flex;align-items:flex-end;overflow:hidden}
 .hero-parallax{position:absolute;inset:-20% 0 -20% 0;z-index:0;will-change:transform;
-  background:url('https://drive.google.com/file/d/16NWw1YsW2y6sIy68QZA1KzjNWQQ0pYsM/view') center 30%/cover no-repeat}
+  background:url('assets/img/armk4.jpg') center 30%/cover no-repeat}
 .hero-overlay{position:absolute;inset:0;z-index:1;background:linear-gradient(120deg,rgba(10,14,20,0.93) 0%,rgba(10,14,20,0.5) 60%,rgba(10,14,20,0.78) 100%)}
 .hero-overlay2{position:absolute;inset:0;z-index:1;background:linear-gradient(to top,rgba(10,14,20,1) 0%,transparent 48%)}
 .hero-bg-text{position:absolute;right:-1%;top:50%;transform:translateY(-50%);font-family:var(--serif);font-size:clamp(90px,16vw,240px);font-weight:700;color:rgba(201,168,76,0.028);white-space:nowrap;user-select:none;pointer-events:none;line-height:1;z-index:2}
@@ -490,10 +490,10 @@ footer{position:relative;z-index:2;background:var(--bg);border-top:1px solid var
   <div class="bundle-lbl reveal">My Photos</div>
   <p class="bundle-sub reveal">A glimpse into my world — click the stack to explore</p>
   <div class="bundle-stack reveal" onclick="openLightbox(0)">
-    <img class="bcard" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Photo 1">
-    <img class="bcard" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80" alt="Photo 2">
-    <img class="bcard" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80" alt="Photo 3">
-    <img class="bcard" src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&q=80" alt="Photo 4">
+    <img class="bcard" src="assets/img/armk2_8.jpg" alt="Photo 1">
+    <img class="bcard" src="assets/img/armk3.jpg" alt="Photo 2">
+    <img class="bcard" src="assets/img/armk4.jpg" alt="Photo 3">
+    <img class="bcard" src="assets/img/armk5.jpg" alt="Photo 4">
   </div>
   <div class="bundle-hint reveal"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>Click to view all photos</div>
 </div>
@@ -547,14 +547,14 @@ footer{position:relative;z-index:2;background:var(--bg);border-top:1px solid var
   <div class="sec-eye reveal">Gallery</div>
   <h2 class="sec-title reveal">Moments &amp;<br><em>Memories</em></h2>
   <div class="gallery-grid">
-    <div class="g-item reveal" style="transition-delay:0s" onclick="openLightbox(0)"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Portrait"><div class="g-overlay"><div class="g-overlay-txt">Professional Portrait</div></div></div>
-    <div class="g-item tall reveal" style="transition-delay:0.06s" onclick="openLightbox(1)"><img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=600&q=80" alt="At Work"><div class="g-overlay"><div class="g-overlay-txt">At Work</div></div></div>
-    <div class="g-item reveal" style="transition-delay:0.12s" onclick="openLightbox(2)"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80" alt="Casual"><div class="g-overlay"><div class="g-overlay-txt">Casual Moments</div></div></div>
-    <div class="g-item reveal" style="transition-delay:0.18s" onclick="openLightbox(3)"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600&q=80" alt="Business"><div class="g-overlay"><div class="g-overlay-txt">Business Session</div></div></div>
-    <div class="g-item wide reveal" style="transition-delay:0.24s" onclick="openLightbox(4)"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=80" alt="Tech"><div class="g-overlay"><div class="g-overlay-txt">Tech &amp; Innovation</div></div></div>
-    <div class="g-item reveal" style="transition-delay:0.30s" onclick="openLightbox(5)"><img src="https://images.unsplash.com/photo-1618085219724-c59ba48e08cd?w=600&q=80" alt="Kerala"><div class="g-overlay"><div class="g-overlay-txt">Kerala Pride</div></div></div>
-    <div class="g-item reveal" style="transition-delay:0.36s" onclick="openLightbox(6)"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80" alt="Outdoor"><div class="g-overlay"><div class="g-overlay-txt">Outdoor Moments</div></div></div>
-    <div class="g-item reveal" style="transition-delay:0.42s" onclick="openLightbox(7)"><img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=600&q=80" alt="Team"><div class="g-overlay"><div class="g-overlay-txt">Team &amp; Leadership</div></div></div>
+    <div class="g-item reveal" style="transition-delay:0s" onclick="openLightbox(0)"><img src="assets/img/armk4.jpg" alt="Portrait"><div class="g-overlay"><div class="g-overlay-txt">Professional Portrait</div></div></div>
+    <div class="g-item tall reveal" style="transition-delay:0.06s" onclick="openLightbox(1)"><img src="assets/img/armk1.jpg" alt="At Work"><div class="g-overlay"><div class="g-overlay-txt">At Work</div></div></div>
+    <div class="g-item reveal" style="transition-delay:0.12s" onclick="openLightbox(2)"><img src="assets/img/armk3.jpg" alt="Casual"><div class="g-overlay"><div class="g-overlay-txt">Casual Moments</div></div></div>
+    <div class="g-item reveal" style="transition-delay:0.18s" onclick="openLightbox(3)"><img src="assets/img/armk1.jpg" alt="Business"><div class="g-overlay"><div class="g-overlay-txt">Business Session</div></div></div>
+    <div class="g-item wide reveal" style="transition-delay:0.24s" onclick="openLightbox(4)"><img src="assets/img/armk2_8.jpg" alt="Tech"><div class="g-overlay"><div class="g-overlay-txt">Tech &amp; Innovation</div></div></div>
+    <div class="g-item reveal" style="transition-delay:0.30s" onclick="openLightbox(5)"><img src="assets/img/armk4.jpg" alt="Kerala"><div class="g-overlay"><div class="g-overlay-txt">Kerala Pride</div></div></div>
+    <div class="g-item reveal" style="transition-delay:0.36s" onclick="openLightbox(6)"><img src="assets/img/armk5.jpg" alt="Outdoor"><div class="g-overlay"><div class="g-overlay-txt">Outdoor Moments</div></div></div>
+    <div class="g-item reveal" style="transition-delay:0.42s" onclick="openLightbox(7)"><img src="assets/img/armk4.jpg" alt="Team"><div class="g-overlay"><div class="g-overlay-txt">Team &amp; Leadership</div></div></div>
   </div>
   <p class="gallery-note">
     <!-- Replace placeholder images with your personal photos — update the <code>src</code> attribute on each <code>&lt;img&gt;</code> tag  --></p> 
@@ -905,13 +905,13 @@ END:VCARD`;
    ===================================================== */
 const photos=[
   {src:'assets/img/armk4.jpg',cap:'Professional Portrait'},
-  {src:'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&q=85',cap:'At Work'},
-  {src:'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=85',cap:'Casual Moments'},
-  {src:'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=85',cap:'Business Session'},
-  {src:'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=800&q=85',cap:'Tech & Innovation'},
-  {src:'https://images.unsplash.com/photo-1618085219724-c59ba48e08cd?w=800&q=85',cap:'Kerala Pride'},
-  {src:'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=85',cap:'Outdoor Moments'},
-  {src:'https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=800&q=85',cap:'Team & Leadership'}
+  {src:'assets/img/armk1.jpg',cap:'At Work'},
+  {src:'assets/img/armk4.jpg',cap:'Casual Moments'},
+  {src:'assets/img/armk1.jpg',cap:'Business Session'},
+  {src:'assets/img/armk2_8.jpg',cap:'Tech & Innovation'},
+  {src:'assets/img/armk4.jpg',cap:'Kerala Pride'},
+  {src:'assets/img/armk5.jpg',cap:'Outdoor Moments'},
+  {src:'assets/img/armk4.jpg',cap:'Team & Leadership'}
 ];
 let lbIdx=0;
 function buildLightbox(){
