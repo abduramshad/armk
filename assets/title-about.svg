@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110" role="img" aria-label="01 About — Where Technology Meets Business">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E8D08A"/><stop offset="1" stop-color="#C9A84C"/></linearGradient></defs>
+  <rect width="1200" height="110" rx="14" fill="#0E0C08"/>
+  <rect x="0.5" y="0.5" width="1199" height="109" rx="14" fill="none" stroke="#C9A84C" stroke-opacity="0.25"/>
+  <text x="40" y="44" font-family="'Segoe UI', Arial, sans-serif" font-size="14" letter-spacing="5" fill="#C9A84C">01  ·  ABOUT</text>
+  <text x="40" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="700" fill="#F5EFDD">Where Technology <tspan fill="url(#g)" font-style="italic">Meets Business</tspan></text>
+  <rect x="1060" y="53" width="100" height="3" rx="1.5" fill="url(#g)"/>
+</svg>
